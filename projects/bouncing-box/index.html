@@ -44,7 +44,7 @@
 			// TODO 2 - Variable declarations 
 			var position = 0;
 			var points= 0;          
-			var speed = 300;         
+			var speed = 3;         
 			var direction = 1;       
 			box.css('left', 0);
 			box.text(0);
@@ -69,7 +69,9 @@
 			function handleBoxClick() {
 				// TODO 4 / 5
 				 points += 1;           // increase the point total
- box.text(points);      // update the new points total displayed by the bo
+				 box.text(points);      // update the new points total displayed by the box
+				  position = 0;         // reset the position of the box to 0
+				 speed += 3;    // increase the speed of the box on every click
 			};
 
 

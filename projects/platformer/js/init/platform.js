@@ -39,7 +39,8 @@
         platform.create(700, 490);
         platform.create(200, 390);
         platform.create(300, 580);
-        platform.create(300, 270, -9, -1);
+        platform.create(300, 270, -9, 1);
+        platform.create(340, 160);
         
         // ALL YOUR CODE GOES ABOVE HERE ///////////////////////////////////////
         ////////////////////////////////////////////////////////////////////////
